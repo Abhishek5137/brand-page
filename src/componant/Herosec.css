@@ -1,0 +1,43 @@
+.hero{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+ .hero h1{
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+ }
+ .hero p{
+    font-weight: 600;
+    color: gray;
+    max-width: 400px;
+ }
+ .hero-btn{
+    display: flex;
+    gap: 48px;
+ }
+  .sec-btn{
+    background: transparent;
+    color:  gray;
+    border: 1px solid gray;
+    
+
+  }
+  .shopping{
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .brand-icon img{
+    gap: 20px;
+    padding: 10px;
+  }
